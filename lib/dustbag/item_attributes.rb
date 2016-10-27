@@ -6,7 +6,8 @@ module Dustbag
                     :brand, :color, :model, :part_number, :product_type_name,
                     :publisher, :studio, :size, :audience_rating, :genre
 
-    numeric_attributes :number_of_items, :number_of_pages, :package_quantity
+    numeric_attributes :number_of_items, :number_of_pages, :package_quantity,
+                      :manufacturer_maximum_age, :manufacturer_minimum_age
 
     text_attributes ean:  'EAN',
                     mpn:  'MPN',
